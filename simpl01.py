@@ -8,8 +8,8 @@ if len(sys.argv) == 4:
 else:
     print("No input given - using default values:")
     principal = "1000"
-    rate = "5"
-    time = "3"
+    rate = "6"
+    time = "4"
 
 simple_interest = (eval(principal) * eval(rate) * eval(time)) / 100
 
